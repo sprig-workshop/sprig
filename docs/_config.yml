@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 title: SPRIG - WORKSHOP
 description: Website of the Seriouse Privacy Game Workshop!
+show_downloads: ["true"]
+google_analytics: missing
 github:
   zip_url: val
   another_url: another
