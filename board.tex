@@ -1,0 +1,112 @@
+% !TEX root = cards.tex
+
+
+
+\newcommand{\bordBox}[1]{
+ \noindent
+ \begin{minipage}[l][12cm][c]{
+   \dimexpr16cm-4
+   \fboxsep-2
+   \fboxrule}
+  #1
+ \end{minipage}
+ \\[2pc]
+}
+
+
+\newcommand{\numberBox}[3]{
+\noindent
+ \fcolorbox{#2}{#3}{
+ \begin{minipage}[l][14cm][c]{
+ \dimexpr20cm-4
+ \fboxsep-2
+ \fboxrule}
+   \centering
+   \section*{#1}
+   \end{minipage}
+  }
+  \\[.5pc]
+}
+
+
+\newcommand{\descriptionBox}[5]{
+\noindent
+ \fcolorbox{#1}{#2}{
+ \begin{minipage}[l][14cm][c]{
+ \dimexpr20cm-4
+ \fboxsep-2
+ \fboxrule}
+   \section*{#3}
+   #4
+   Follow the steps below:\\
+   #5
+   \end{minipage}
+  }
+  \\[.5pc]
+}
+
+
+
+
+\numberBox{1 - Reality}{RealityBlue}{RealityBlue}
+%
+\numberBox{3 - Play}{PlayGreen}{PlayGreen}
+%
+%
+\descriptionBox{RealityBlue}{RealityBlue}{Reality}{What problems related to privacy exists out there? In this part we want you to think about what concerns you, and what privacy problem you would like to solve.}{%
+\begin{enumerate}%
+  \item Choose one Reality card.%
+  \item Discuss the privacy-problems related to the card.%
+  \item Select if you want to focus on issues related to businesses or individuals.%
+  \item Specify an example that your group wants to focus on related to your card.%
+  \item Use the questions on the board to help you think.%
+  \item Pitch your idea to the other groups.%
+\end{enumerate}%
+}
+%
+\descriptionBox{PlayGreen}{PlayGreen}{Play}{%
+What makes a game fun to play? In this part we want you to think about what makes a game fun to play, and try to create a new exciting game in a given genre.%
+}{%
+\begin{enumerate}%
+  \item Draw one Play Card
+  \item Design a game in the genre that will be the next big thing! Think outside the box.
+  \item Use the questions on the board to help you think.
+  \item Pitch your idea to the other groups
+\end{enumerate}%
+}
+%
+%
+\numberBox{2 - Meaning}{MeaningYellow}{MeaningYellow}
+%
+\numberBox{4 - Technology}{TechnologyRed}{TechnologyRed}
+%
+%
+\descriptionBox{MeaningYellow}{MeaningYellow}{Meaning}{%
+How can a game be meaningful? In this part we want you to think about how existing games can be changed to have a meaning, and increase the awareness or change the attitude of the player. %
+}{%
+\begin{enumerate}%
+  \item Choose an existing game you know of.
+  \item Change one or more elements of the game so that it raises awareness/attitude about a real world problem.
+  \item Use the questions on the board to help you think.
+  \item Pitch your idea to the other groups.
+\end{enumerate}%
+}
+%
+\descriptionBox{TechnologyRed}{TechnologyRed}{Technology}{%
+This part is a bit different. You are supposed to try to combine what you have thought of in Reality, Meaning, and Play and with the drawn Technology card create a game concept.  %
+}{%
+\begin{enumerate}%
+  \item Draw one Technology card.
+  \item Combine the previous steps into one successful Serious Game!
+  \item Use the questions on the board to help you think.
+  \item Pitch your idea to the other groups.
+\end{enumerate}%
+}
+\todo[inline]{fix formating. fix bold text in lists}
+\todo[inline]{create inside of board? does itmater. just use blank pages of paper?}
+\todo[inline]{Figure out the colors. }
+\todo[inline]{Should there be less color on the pages? just the border?}
+
+
+\bordBox{inside}
+\bordBox{back}

@@ -1,6 +1,6 @@
 \documentclass[12pt, a4paper]{article}
 \usepackage{geometry}
-\geometry{margin=1cm}
+\geometry{margin=.5cm}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{import}
@@ -34,8 +34,9 @@
 
 
 \definecolor{RealityBlue}{HTML}{ccddff}
-\definecolor{MeaningYellow}{HTML}{ddffcc}
+\definecolor{MeaningYellow}{HTML}{ffffcc}
 \definecolor{TechnologyRed}{HTML}{ffccdd}
+\definecolor{PlayGreen}{HTML}{ccffdd}
 
 \begin{document}
 
@@ -50,6 +51,8 @@ Department of Computer Science\\
 Norwegian University of Science and Technology
 \end{center}
 \vfill
+
+
 
 \newcommand{\card}[6]{
 \noindent
@@ -82,6 +85,11 @@ Norwegian University of Science and Technology
 \newcommand{\TechnologyCard}[4]{
 \card{#1}{#2}{#3}{#4}{TechnologyRed}{Medium explanation}
 }
+
+\newpage
+
+
+\listoftodos
 
 \newpage
 
@@ -265,8 +273,11 @@ Tamagotchi © 2005 Tomasz Sienicki%
 A device that can use buttons, sensors or other forms of input. The device is not connected to anything. %
 }
 
+\todo[inline]{import play cards}
+\todo[inline]{add copyright to cards from triadic workshop saying they are from the triadic workshop}
+\todo[inline]{figure out what license to put this under}
 
-
+\include{board}
 
 
 \end{document}
