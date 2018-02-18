@@ -4,7 +4,7 @@
 
 \newcommand{\bordBox}[1]{
  \noindent
- \begin{minipage}[l][12cm][c]{
+ \begin{minipage}[l][11.6cm][c]{
    \dimexpr16cm-4
    \fboxsep-2
    \fboxrule}
@@ -17,7 +17,7 @@
 \newcommand{\numberBox}[3]{
 \noindent
  \fcolorbox{#2}{#3}{
- \begin{minipage}[l][14cm][c]{
+ \begin{minipage}[l][13.6cm][c]{
  \dimexpr20cm-4
  \fboxsep-2
  \fboxrule}
@@ -32,12 +32,12 @@
 \newcommand{\descriptionBox}[5]{
 \noindent
  \fcolorbox{#1}{#2}{
- \begin{minipage}[l][14cm][c]{
+ \begin{minipage}[l][13.6cm][c]{
  \dimexpr20cm-4
  \fboxsep-2
  \fboxrule}
    \section*{#3}
-   #4
+   #4\\[2pc]
    Follow the steps below:\\
    #5
    \end{minipage}
@@ -45,6 +45,33 @@
   \\[.5pc]
 }
 
+\newcommand{\questionBox}[5]{
+\noindent
+ \fcolorbox{#1}{#2}{
+ \begin{minipage}[l][13.6cm][c]{
+ \dimexpr20cm-4
+ \fboxsep-2
+ \fboxrule}
+
+ \fboxrule=.5mm
+   \section*{#3}
+   #4\\[2pc]
+   Guidance questions:
+   #5
+   Description:\\
+   \fcolorbox{black}{white}{\begin{minipage}[l][6cm][c]{
+   \dimexpr19.3cm-4
+   \fboxsep-2
+   \fboxrule}
+   \hspace{\fill}
+
+   \fboxrule=2mm
+   \end{minipage}
+   }
+   \end{minipage}
+  }
+  \\[.5pc]
+}
 
 
 
@@ -55,7 +82,7 @@
 %
 \descriptionBox{RealityBlue}{RealityBlue}{Reality}{What problems related to privacy exists out there? In this part we want you to think about what concerns you, and what privacy problem you would like to solve.}{%
 \begin{enumerate}%
-  \item Choose one Reality card.%
+  \item Choose one \textbf{Reality card}%
   \item Discuss the privacy-problems related to the card.%
   \item Select if you want to focus on issues related to businesses or individuals.%
   \item Specify an example that your group wants to focus on related to your card.%
@@ -68,7 +95,7 @@
 What makes a game fun to play? In this part we want you to think about what makes a game fun to play, and try to create a new exciting game in a given genre.%
 }{%
 \begin{enumerate}%
-  \item Draw one Play Card
+  \item Draw one \textbf{Play Card}
   \item Design a game in the genre that will be the next big thing! Think outside the box.
   \item Use the questions on the board to help you think.
   \item Pitch your idea to the other groups
@@ -85,7 +112,7 @@ What makes a game fun to play? In this part we want you to think about what make
 How can a game be meaningful? In this part we want you to think about how existing games can be changed to have a meaning, and increase the awareness or change the attitude of the player. %
 }{%
 \begin{enumerate}%
-  \item Choose an existing game you know of.
+  \item Choose an \textbf{existing game} you know of.
   \item Change one or more elements of the game so that it raises awareness/attitude about a real world problem.
   \item Use the questions on the board to help you think.
   \item Pitch your idea to the other groups.
@@ -93,20 +120,72 @@ How can a game be meaningful? In this part we want you to think about how existi
 }
 %
 \descriptionBox{TechnologyRed}{TechnologyRed}{Technology}{%
-This part is a bit different. You are supposed to try to combine what you have thought of in Reality, Meaning, and Play and with the drawn Technology card create a game concept.  %
+This part is a bit different. You are supposed to try to combine what you have thought of in \textbf{Reality}, \textbf{Meaning}, and \textbf{Play} and with the drawn Technology card create a game concept.  %
 }{%
 \begin{enumerate}%
-  \item Draw one Technology card.
+  \item Draw one \textbf{Technology card}.
   \item Combine the previous steps into one successful Serious Game!
-  \item Use the questions on the board to help you think.
+  \item Use the qu
+  estions on the board to help you think.
   \item Pitch your idea to the other groups.
 \end{enumerate}%
 }
-\todo[inline]{fix formating. fix bold text in lists}
+\todo[inline]{fix formating}
 \todo[inline]{create inside of board? does itmater. just use blank pages of paper?}
 \todo[inline]{Figure out the colors. }
 \todo[inline]{Should there be less color on the pages? just the border?}
 
+\newpage
 
-\bordBox{inside}
-\bordBox{back}
+
+
+
+\questionBox{RealityBlue}{RealityBlue}{Reality}{Domain \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+\dimexpr16cm-4
+\fboxsep-2
+\fboxrule}
+\hspace{\fill}
+\end{minipage}
+}}{%
+\begin{itemize}
+  \item What is the privacy problem to be dealt with?
+  \item What factors does the problem include? People, object, organizations?
+  \item Is there a particular scenario you have in mind?
+\end{itemize}
+}
+%
+\questionBox{MeaningYellow}{MeaningYellow}{Meaning}{\hspace{\fill}}{%
+\begin{itemize}
+  \item What problem will the player be made aware of?
+  \item How can one raise the awareness of the player?
+  \item How can one change the player's attitude?
+\end{itemize}
+}
+%
+%
+\questionBox{PlayGreen}{PlayGreen}{Play}{Genre  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+\dimexpr16cm-4
+\fboxsep-2
+\fboxrule}
+\hspace{\fill}
+\end{minipage}
+}}{%
+\begin{itemize}
+  \item What is the games relation to privacy?
+  \item What are the \textbf{goals}, \textbf{rules}, and \textbf{story} of the game?
+\end{itemize}
+}
+%
+\questionBox{TechnologyRed}{TechnologyRed}{Technolgy}{Medium  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+\dimexpr16cm-4
+\fboxsep-2
+\fboxrule}
+\hspace{\fill}
+\end{minipage}
+}}{%
+\begin{itemize}
+  \item How will the player interact with the game?
+  \item What are the advantages of creating a game for this technology?
+  \item What are the limitations of creating a game for this technology?
+\end{itemize}
+}
