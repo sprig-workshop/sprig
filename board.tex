@@ -48,19 +48,24 @@
 \newcommand{\questionBox}[5]{
 \noindent
  \fcolorbox{#1}{#2}{
- \begin{minipage}[l][13.6cm][c]{
- \dimexpr20cm-4
+ \begin{minipage}[l][12.6cm][c]{
+ \dimexpr18cm-4
  \fboxsep-2
  \fboxrule}
 
  \fboxrule=.5mm
-   \section*{#3}
-   #4\\[2pc]
+   \section*{#3 \hspace{\fill} Group Nr: \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+   \dimexpr2cm-4
+   \fboxsep-2
+   \fboxrule}
+   \hspace{\fill}
+   \end{minipage}}}
+   #4\\[1pc]
    Guidance questions:
    #5
    Description:\\
-   \fcolorbox{black}{white}{\begin{minipage}[l][6cm][c]{
-   \dimexpr19.3cm-4
+   \fcolorbox{black}{white}{\begin{minipage}[l][5.5cm][c]{
+   \dimexpr17.3cm-4
    \fboxsep-2
    \fboxrule}
    \hspace{\fill}
@@ -70,7 +75,7 @@
    }
    \end{minipage}
   }
-  \\[.5pc]
+  \\[2pc]
 }
 
 
@@ -141,7 +146,7 @@ This part is a bit different. You are supposed to try to combine what you have t
 
 
 \questionBox{RealityBlue}{RealityBlue}{Reality}{Domain \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-\dimexpr16cm-4
+\dimexpr14cm-4
 \fboxsep-2
 \fboxrule}
 \hspace{\fill}
@@ -164,7 +169,7 @@ This part is a bit different. You are supposed to try to combine what you have t
 %
 %
 \questionBox{PlayGreen}{PlayGreen}{Play}{Genre  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-\dimexpr16cm-4
+\dimexpr14cm-4
 \fboxsep-2
 \fboxrule}
 \hspace{\fill}
@@ -177,7 +182,7 @@ This part is a bit different. You are supposed to try to combine what you have t
 }
 %
 \questionBox{TechnologyRed}{TechnologyRed}{Technolgy}{Medium  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-\dimexpr16cm-4
+\dimexpr14cm-4
 \fboxsep-2
 \fboxrule}
 \hspace{\fill}
