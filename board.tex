@@ -1,18 +1,5 @@
-% !TEX root = cards.tex
-
-
-
-\newcommand{\bordBox}[1]{
- \noindent
- \begin{minipage}[l][11.6cm][c]{
-   \dimexpr16cm-4
-   \fboxsep-2
-   \fboxrule}
-  #1
- \end{minipage}
- \\[2pc]
-}
-
+\include{config}
+\begin{document}
 
 \newcommand{\numberBox}[3]{
 \noindent
@@ -45,39 +32,12 @@
   \\[.5pc]
 }
 
-\newcommand{\questionBox}[5]{
-\noindent
- \fcolorbox{#1}{#2}{
- \begin{minipage}[l][12.6cm][c]{
- \dimexpr18cm-4
- \fboxsep-2
- \fboxrule}
+\todo[inline]{fix formating}
+\todo[inline]{create inside of board? does it mater. just use blank pages of paper?}
+\todo[inline]{Figure out the colors. }
+\todo[inline]{Should there be less color on the pages? just the border?}
 
- \fboxrule=.5mm
-   \section*{#3 \hspace{\fill} Group Nr: \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-   \dimexpr2cm-4
-   \fboxsep-2
-   \fboxrule}
-   \hspace{\fill}
-   \end{minipage}}}
-   #4\\[1pc]
-   Guidance questions:
-   #5
-   Description:\\
-   \fcolorbox{black}{white}{\begin{minipage}[l][5.5cm][c]{
-   \dimexpr17.3cm-4
-   \fboxsep-2
-   \fboxrule}
-   \hspace{\fill}
-
-   \fboxrule=2mm
-   \end{minipage}
-   }
-   \end{minipage}
-  }
-  \\[2pc]
-}
-
+\newpage
 
 
 \numberBox{1 - Reality}{RealityBlue}{RealityBlue}
@@ -135,62 +95,5 @@ This part is a bit different. You are supposed to try to combine what you have t
   \item Pitch your idea to the other groups.
 \end{enumerate}%
 }
-\todo[inline]{fix formating}
-\todo[inline]{create inside of board? does itmater. just use blank pages of paper?}
-\todo[inline]{Figure out the colors. }
-\todo[inline]{Should there be less color on the pages? just the border?}
 
-\newpage
-
-
-
-
-\questionBox{RealityBlue}{RealityBlue}{Reality}{Domain \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-\dimexpr14cm-4
-\fboxsep-2
-\fboxrule}
-\hspace{\fill}
-\end{minipage}
-}}{%
-\begin{itemize}
-  \item What is the privacy problem to be dealt with?
-  \item What factors does the problem include? People, object, organizations?
-  \item Is there a particular scenario you have in mind?
-\end{itemize}
-}
-%
-\questionBox{MeaningYellow}{MeaningYellow}{Meaning}{\hspace{\fill}}{%
-\begin{itemize}
-  \item What problem will the player be made aware of?
-  \item How can one raise the awareness of the player?
-  \item How can one change the player's attitude?
-\end{itemize}
-}
-%
-%
-\questionBox{PlayGreen}{PlayGreen}{Play}{Genre  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-\dimexpr14cm-4
-\fboxsep-2
-\fboxrule}
-\hspace{\fill}
-\end{minipage}
-}}{%
-\begin{itemize}
-  \item What is the games relation to privacy?
-  \item What are the \textbf{goals}, \textbf{rules}, and \textbf{story} of the game?
-\end{itemize}
-}
-%
-\questionBox{TechnologyRed}{TechnologyRed}{Technolgy}{Medium  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
-\dimexpr14cm-4
-\fboxsep-2
-\fboxrule}
-\hspace{\fill}
-\end{minipage}
-}}{%
-\begin{itemize}
-  \item How will the player interact with the game?
-  \item What are the advantages of creating a game for this technology?
-  \item What are the limitations of creating a game for this technology?
-\end{itemize}
-}
+\end{document}

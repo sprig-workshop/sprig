@@ -1,60 +1,5 @@
-\documentclass[12pt, a4paper]{article}
-\usepackage{geometry}
-\geometry{margin=.5cm}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{import}
-
-
-\usepackage{xcolor}
-
-
-
-\fboxrule=2mm%border thickness
-
-
-% align figures
-\usepackage{wrapfig}
-
-% Todo
-\usepackage{xargs}    % Use more than one optional parameter in a new commands
-\usepackage{color}    % Woho, colors
-
-% Tables
-\usepackage{array}
-
-\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}  % <- Todo active
-%\usepackage[disable]{todonotes} % <- Todo disabled
-
-
-% Todo commands
-\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
-\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
-\newcommandx{\info}[2][1=]{\todo[linecolor=green,backgroundcolor=green!25,bordercolor=green,#1]{#2}}
-\newcommandx{\litterature}[2][1=]{\todo[linecolor=cyan,backgroundcolor=cyan!25,bordercolor=cyan,#1]{#2}}
-\newcommandx{\improvement}[2][1=]{\todo[linecolor=purple,backgroundcolor=purple!25,bordercolor=purple,#1]{#2}}
-
-
-\definecolor{RealityBlue}{HTML}{ccddff}
-\definecolor{MeaningYellow}{HTML}{ffffcc}
-\definecolor{TechnologyRed}{HTML}{ffccdd}
-\definecolor{PlayGreen}{HTML}{ccffdd}
-
+\include{config}
 \begin{document}
-
-\begin{center}
-\Huge{SPRIG - Workshop}\\[2pc]
-
-\Large{Dag Frode Solberg}\\[1pc]
-\large{Juni 2018}\\[2pc]
-
-PROJECT / MASTER THESIS\\
-Department of Computer Science\\
-Norwegian University of Science and Technology
-\end{center}
-\vfill
-
-
 
 \newcommand{\card}[6]{
 \noindent
@@ -88,10 +33,12 @@ Norwegian University of Science and Technology
 \card{#1}{#2}{#3}{#4}{TechnologyRed}{Medium explanation}
 }
 
-\newpage
 
+\todo[inline]{ask OM for help with colors and maybe feedback on the design in general}
+\todo[inline]{import play cards}
+\todo[inline]{add copyright to cards from triadic workshop saying they are from the triadic workshop}
+\todo[inline]{figure out what license to put this under}
 
-\listoftodos
 
 \newpage
 
@@ -125,7 +72,7 @@ cards/reality/health_devices%
 Health devices
 © Ferret 2013%
 }{%
-Health devices are becoming more popular. These devices tracks health data. Fields such as healthcare and insurance are interested in this sort of data. It can improve their services, but it could also be used to decide insurance prices. The data tracked is very personal and is something one might not want to share to everybody.%
+Health devices are becoming more popular. These devices tracks health data. Fields such as health care and insurance are interested in this sort of data. It can improve their services, but it could also be used to decide insurance prices. The data tracked is very personal and is something one might not want to share to everybody.%
 }
 
 \RealityCard{
@@ -274,13 +221,5 @@ Tamagotchi © 2005 Tomasz Sienicki%
 }{%
 A device that can use buttons, sensors or other forms of input. The device is not connected to anything. %
 }
-
-\todo[inline]{ask OM for help with colors and maybe feedback on the design in general}
-\todo[inline]{import play cards}
-\todo[inline]{add copyright to cards from triadic workshop saying they are from the triadic workshop}
-\todo[inline]{figure out what license to put this under}
-
-\include{board}
-
 
 \end{document}
