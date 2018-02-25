@@ -1,0 +1,40 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{geometry}
+\geometry{margin=.5cm}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+
+\usepackage{xcolor}
+
+
+
+\fboxrule=2mm%border thickness
+
+
+% align figures
+\usepackage{wrapfig}
+
+% Todo
+\usepackage{xargs}    % Use more than one optional parameter in a new commands
+\usepackage{color}    % Woho, colors
+
+% Tables
+\usepackage{array}
+
+\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}  % <- Todo active
+%\usepackage[disable]{todonotes} % <- Todo disabled
+
+
+% Todo commands
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=green,backgroundcolor=green!25,bordercolor=green,#1]{#2}}
+\newcommandx{\litterature}[2][1=]{\todo[linecolor=cyan,backgroundcolor=cyan!25,bordercolor=cyan,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=purple,backgroundcolor=purple!25,bordercolor=purple,#1]{#2}}
+
+
+\definecolor{RealityBlue}{HTML}{ccddff}
+\definecolor{MeaningYellow}{HTML}{ffffcc}
+\definecolor{TechnologyRed}{HTML}{ffccdd}
+\definecolor{PlayGreen}{HTML}{ccffdd}

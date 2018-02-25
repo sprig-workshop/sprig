@@ -1,0 +1,225 @@
+\include{config}
+\begin{document}
+
+\newcommand{\card}[6]{
+\noindent
+ \fcolorbox{#5}{#5}{
+   \begin{minipage}[l][12cm][c]{
+   \dimexpr16cm-4
+   \fboxsep-2
+   \fboxrule}
+   \centering
+   \section*{#1}
+   \includegraphics[height=6cm]{#2} \\
+   \textit{#3}\\[1pc]
+   \begin{minipage}{15cm}
+     \textbf{#6:}
+     #4
+   \end{minipage}
+   \end{minipage}
+   }
+\\[2pc]
+}
+
+\newcommand{\RealityCard}[4]{
+\card{#1}{#2}{#3}{#4}{RealityBlue}{Domain explanation}
+}
+
+\newcommand{\MeaningCard}[4]{
+\card{#1}{#2}{#3}{#4}{MeaningYellow}{Domain explanation}
+}
+
+\newcommand{\TechnologyCard}[4]{
+\card{#1}{#2}{#3}{#4}{TechnologyRed}{Medium explanation}
+}
+
+
+\todo[inline]{ask OM for help with colors and maybe feedback on the design in general}
+\todo[inline]{import play cards}
+\todo[inline]{add copyright to cards from triadic workshop saying they are from the triadic workshop}
+\todo[inline]{figure out what license to put this under}
+
+
+\newpage
+
+\RealityCard{
+Location Sharing%
+}{%
+cards/reality/location_sharing%
+}{%
+Location sharing @2017 Cyber Pshyche%
+}{%
+More and more applications and devices are embedding location into their services. This information can be used to give improved service to the user, such as automatically filling in the closest bus-stop, but also be exploited, abused and sold to e.g. give targeted ads. Sharing your location with “friends” can be valuable at times, but can also be misused by thieves.%
+}
+
+
+\RealityCard{
+Smart cities%
+}{%
+cards/reality/smart_city%
+}{%
+Smart cities @ 2015 GCN%
+}{%
+A smart city is a collection of homes, buildings and devices that are all sharing or using data from same information grid. The city uses all the information gathered to improve quality and performance of urban services. For instance: a traffic camera noticing heavy traffic can tell the buses to take another route. In a smart city there are enormous amounts of data flowing over networks and being stored, which can bring potential privacy issues.%
+}
+
+
+\RealityCard{
+Health devices%
+}{%
+cards/reality/health_devices%
+}{%
+Health devices
+© Ferret 2013%
+}{%
+Health devices are becoming more popular. These devices tracks health data. Fields such as health care and insurance are interested in this sort of data. It can improve their services, but it could also be used to decide insurance prices. The data tracked is very personal and is something one might not want to share to everybody.%
+}
+
+\RealityCard{
+Activity trackers%
+}{%
+cards/reality/activity_trackers%
+}{%
+Activity trackers
+© 2015 BuzzFeed%
+}{%
+Tracking activity to improve health has become increasingly popular. Activity trackers often consists of a wearable component and an app. Or just an app using the phone for sensors. Some of the apps shares the training data in real time. This mean that information such as your position can be shared while you are out running.%
+}
+
+\RealityCard{
+Social media%
+}{%
+cards/reality/social_media%
+}{%
+Social media @2017 softloom%
+}{%
+Social media have opened up communication for people across the world, it enables us to share our life and thoughts with friends and family. We often share photos, videos and personal information to social networks without considering the consequences, as both companies and people may exploit the data.%
+}
+
+\RealityCard{
+Mobile app permissions%
+}{%
+cards/reality/mobile_app_permissions%
+}{%
+Mobile app permissions
+@2014 How-to-geek%
+}{%
+Many mobile applications are “overprivileged”. Meaning that they have access to more information on the device than they need. Why did Pokemon Go need access to your Contacts and Photos? Applications with access to too much information can abuse this, and depending on their Terms and Services sell your information to third parties.%
+}
+
+\RealityCard{
+Loyalty programs%
+}{%
+cards/reality/loyalty_programs%
+}{%
+Æ © 2017 Rema 1000%
+}{%
+Loyalty programs gives the customer personalized discounts. In return for these discounts the customer gives up a lot of data about themselves. Information of what items they buy, when, how often, how much are some examples of this. This information can be used to improve the business but it can also tell a lot about a person.%
+}
+
+\MeaningCard{
+Attitude \& Awareness%
+}{%
+cards/meaning/attitude_and_awareness%
+}{%
+The McDonald’s Game © 2006 Molleindustria%
+}{%
+Awareness is about making informed and thoughtful decisions. A game that aims to raise awareness or change the attitude attempts to make the player more aware about the decisions they make related to a certain topic. That topic may be a major world problem or an everyday issue.
+An example is The McDonald’s Game which raises awareness about the flaws of the fast-food industry. %
+}
+
+
+\TechnologyCard{
+Augmented reality%
+}{%
+cards/technology/augmented_reality%
+}{%
+Pokemon Go © 2017 Digital Trends%
+}{%
+By using a camera or other similar sensors it is possible to anchor digital objects in the real physical world. Examples are Pokemon Go, or even Microsoft Hololens. %
+}
+
+
+\TechnologyCard{
+Computer%
+}{%
+cards/technology/computer%
+}{%
+Computer games © 2017 Life Wire%
+}{%
+The typical computer games require input from mouse and/or keyboard.
+They can be complex or simple, and available in the web-browser or directly on the computer itself.
+ %
+}
+
+
+\TechnologyCard{
+Console%
+}{%
+cards/technology/console%
+}{%
+Consoles © 2017 Smartronic%
+}{%
+Games on gaming-consoles are typically played with a handheld controller.
+They can be complex or simple, and often involves a lot of action. %
+}
+
+
+\TechnologyCard{
+Interactive Devices%
+}{%
+cards/technology/interactive_devices%
+}{%
+Interactive Devices ©2017 codebender's blog%
+}{%
+By using sensors, actuators (a device that converts energy into motion), and the internet anything can become a video-game!
+An Arduino connected to a moisture sensor can make watering the plants a game. The opportunities are endless. %
+}
+
+
+\TechnologyCard{
+Interactive Devices%
+}{%
+cards/technology/interactive_surfaces%
+}{%
+Interactive Devices ©2017 codebender's blog%
+}{%
+By using sensors, actuators (a device that converts energy into motion), and the internet anything can become a video-game!
+An Arduino connected to a moisture sensor can make watering the plants a game. The opportunities are endless. %
+}
+
+
+\TechnologyCard{
+Mobile%
+}{%
+cards/technology/mobile%
+}{%
+Mobile games © 2016 Mobile shop%
+}{%
+With “everyone” owning a smartphone, it is also natural to play games on it.
+Mobile games are typically simple but addicting games with the possibility to play whenever wherever. %
+}
+
+
+\TechnologyCard{
+Own Devices%
+}{%
+cards/technology/own_devices%
+}{%
+Tamagotchi © 2005 Tomasz Sienicki%
+}{%
+A device that can use buttons, sensors or other forms of input. The device is not connected to anything. %
+}
+
+
+\TechnologyCard{
+Virtual Reality%
+}{%
+cards/technology/virtual_reality%
+}{%
+Tamagotchi © 2005 Tomasz Sienicki%
+}{%
+A device that can use buttons, sensors or other forms of input. The device is not connected to anything. %
+}
+
+\end{document}
