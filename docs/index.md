@@ -1,5 +1,7 @@
 # Let's Grow Privacy Aware Together!
 
+![](/img/logo/sprig_logo_500x307.png)
+
 Serious Privacy Game Workshop (SPRIG) is a workshop that takes the participant trough developing a serious game focusing on privacy. The development of the game let the participants discuss privacy in groups in an fun and interesting way.
 
 ## Download
