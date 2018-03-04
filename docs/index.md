@@ -4,7 +4,7 @@
 
 Serious Privacy Game Workshop (SPRIG) is a workshop that takes the participant trough developing a serious game focusing on privacy. The development of the game let the participants discuss privacy in groups in an fun and interesting way.
 
-## Download
+## Workshop Download
 
 The workshop has 3 artifacts as well as a presentation and a guide for running the workshop.
 
@@ -19,6 +19,10 @@ The [presentation](https://github.com/dagfs/sprig/raw/master/presentation.pdf) i
 
 
 The [guide for running the workshop]() has not yet been added to this page.
+
+## Other Activities
+
+* [Privacy Related News Articles](https://dagfs.github.io/sprig/news_articles)
 
 ## Other Languages
 Follow the links to see versions in other languages.
