@@ -1,15 +1,16 @@
 \include{config}
 \begin{document}
 
+
 \newcommand{\numberBox}[3]{
 \noindent
- \fcolorbox{#2}{#3}{
- \begin{minipage}[l][13.6cm][c]{
- \dimexpr20cm-4
+ \fcolorbox{#2}{white}{
+ \begin{minipage}[l][13.1cm][c]{
+ \dimexpr19cm-4
  \fboxsep-2
  \fboxrule}
    \centering
-   \section*{#1}
+   #1
    \end{minipage}
   }
   \\[.5pc]
@@ -18,9 +19,9 @@
 
 \newcommand{\descriptionBox}[5]{
 \noindent
- \fcolorbox{#1}{#2}{
- \begin{minipage}[l][13.6cm][c]{
- \dimexpr20cm-4
+ \fcolorbox{#1}{white}{
+ \begin{minipage}[l][13.1cm][c]{
+ \dimexpr19cm-4
  \fboxsep-2
  \fboxrule}
    \section*{#3}
@@ -34,15 +35,20 @@
 
 \todo[inline]{fix formating}
 \todo[inline]{create inside of board? does it mater. just use blank pages of paper?}
-\todo[inline]{Figure out the colors. }
 \todo[inline]{Should there be less color on the pages? just the border?}
 
 \newpage
 
 
-\numberBox{1 - Reality}{RealityBlue}{RealityBlue}
+\numberBox{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{1 - Reality}
+}{RealityBlue}{RealityBlue}
 %
-\numberBox{3 - Play}{PlayGreen}{PlayGreen}
+\numberBox{%
+\includegraphics[width=4cm]{img/logo/play}%
+\section*{3 - Play}
+}{PlayGreen}{PlayGreen}
 %
 %
 \descriptionBox{RealityBlue}{RealityBlue}{Reality}{What problems related to privacy exists out there? In this part we want you to think about what concerns you, and what privacy problem you would like to solve.}{%
@@ -68,9 +74,15 @@ What makes a game fun to play? In this part we want you to think about what make
 }
 %
 %
-\numberBox{2 - Meaning}{MeaningYellow}{MeaningYellow}
+\numberBox{%
+\includegraphics[width=4cm]{img/logo/meaning}%
+\section*{2 - Meaning}
+}{MeaningYellow}{MeaningYellow}
 %
-\numberBox{4 - Technology}{TechnologyRed}{TechnologyRed}
+\numberBox{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{4 - Technology}
+}{TechnologyRed}{TechnologyRed}
 %
 %
 \descriptionBox{MeaningYellow}{MeaningYellow}{Meaning}{%
@@ -95,5 +107,4 @@ This part is a bit different. You are supposed to try to combine what you have t
   \item Pitch your idea to the other groups.
 \end{enumerate}%
 }
-
 \end{document}
