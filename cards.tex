@@ -3,7 +3,7 @@
 
 \newcommand{\card}[6]{
 \noindent
- \fcolorbox{#5}{#5}{
+ \fcolorbox{#5}{white}{
    \begin{minipage}[l][12cm][c]{
    \dimexpr16cm-4
    \fboxsep-2
@@ -18,19 +18,19 @@
    \end{minipage}
    \end{minipage}
    }
-\\[2pc]
+\\[4pc]
 }
 
 \newcommand{\RealityCard}[4]{
-\card{#1}{#2}{#3}{#4}{RealityBlue}{Domain explanation}
+\card{\includegraphics[height=8mm]{img/logo/reality}#1}{#2}{#3}{#4}{RealityBlue}{Domain explanation}
 }
 
 \newcommand{\MeaningCard}[4]{
-\card{#1}{#2}{#3}{#4}{MeaningYellow}{Domain explanation}
+\card{#1 \includegraphics[height=8mm]{img/logo/meaning}}{#2}{#3}{#4}{MeaningYellow}{Domain explanation}
 }
 
 \newcommand{\TechnologyCard}[4]{
-\card{#1}{#2}{#3}{#4}{TechnologyRed}{Medium explanation}
+\card{#1 \includegraphics[height=8mm]{img/logo/technology}}{#2}{#3}{#4}{TechnologyRed}{Medium explanation}
 }
 
 

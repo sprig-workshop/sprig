@@ -4,7 +4,8 @@
 
 \newcommand{\questionBox}[5]{
 \noindent
- \fcolorbox{#1}{#2}{
+\begin{center}
+ \fcolorbox{#1}{white}{
  \begin{minipage}[l][12.6cm][c]{
  \dimexpr18cm-4
  \fboxsep-2
@@ -33,13 +34,14 @@
    \end{minipage}
   }
   \\[2pc]
+\end{center}
 }
 
 
 
 
 
-\questionBox{RealityBlue}{RealityBlue}{Reality}{Domain \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+\questionBox{RealityBlue}{RealityBlue}{\includegraphics[height=8mm]{img/logo/reality} Reality}{Domain \fcolorbox{black}{white}{\begin{minipage}[l][.5cm][c]{
 \dimexpr14cm-4
 \fboxsep-2
 \fboxrule}
@@ -53,7 +55,7 @@
 \end{itemize}
 }
 %
-\questionBox{MeaningYellow}{MeaningYellow}{Meaning}{\hspace{\fill}}{%
+\questionBox{MeaningYellow}{MeaningYellow}{Meaning \includegraphics[height=8mm]{img/logo/meaning}}{\hspace{\fill}}{%
 \begin{itemize}
   \item What problem will the player be made aware of?
   \item How can one raise the awareness of the player?
@@ -62,7 +64,7 @@
 }
 %
 %
-\questionBox{PlayGreen}{PlayGreen}{Play}{Genre  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+\questionBox{PlayGreen}{PlayGreen}{\includegraphics[height=8mm]{img/logo/play} Play}{Genre  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
 \dimexpr14cm-4
 \fboxsep-2
 \fboxrule}
@@ -75,7 +77,7 @@
 \end{itemize}
 }
 %
-\questionBox{TechnologyRed}{TechnologyRed}{Technolgy}{Medium  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
+\questionBox{TechnologyRed}{TechnologyRed}{Technolgy \includegraphics[height=8mm]{img/logo/technology}}{Medium  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
 \dimexpr14cm-4
 \fboxsep-2
 \fboxrule}
