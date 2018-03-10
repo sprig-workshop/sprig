@@ -10,7 +10,7 @@ The workshop has 3 artifacts as well as a presentation and a guide for running t
 
 The first is the [bord](https://github.com/dagfs/sprig/raw/master/board.pdf).
 
-The second is the [cards](https://github.com/dagfs/sprig/raw/master/cards.pdf). Or if you would like to print with less ink, the [ink saving cards](https://github.com/dagfs/sprig/raw/master/cards_color_saving.pdf).
+The second is the [cards](https://github.com/dagfs/sprig/raw/master/cards.pdf). 
 
 The last part are the [question cards.pdf](https://github.com/dagfs/sprig/raw/master/question_cards.pdf)
 
