@@ -1,3 +1,16 @@
+<style>
+nav a{
+  color:red;
+}
+</style>
+
+<nav>
+<a  href="https://dagfs.github.io/sprig/)">Home</a>
+<a  href="https://dagfs.github.io/sprig/workshop)">Workshop</a>
+<a  href="https://dagfs.github.io/sprig/activities)">Activities</a>
+<a  href="https://dagfs.github.io/sprig/extra_material)">Extra material</a>
+</nav>
+
 <img src="https://github.com/dagfs/sprig/raw/master/img/logo/sprig_logo_500x307.png" >
 
 # Let's Grow "Privacy Aware Together!
@@ -10,7 +23,7 @@ The workshop has 3 artifacts as well as a presentation and a guide for running t
 
 The first is the [bord](https://github.com/dagfs/sprig/raw/master/board.pdf).
 
-The second is the [cards](https://github.com/dagfs/sprig/raw/master/cards.pdf). 
+The second is the [cards](https://github.com/dagfs/sprig/raw/master/cards.pdf).
 
 The last part are the [question cards.pdf](https://github.com/dagfs/sprig/raw/master/question_cards.pdf)
 
