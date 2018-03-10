@@ -1,18 +1,3 @@
-<style>
-nav a{
-  color:red;
-}
-</style>
-
-<nav>
-<a  href="https://dagfs.github.io/sprig/)">Home</a>
-<a  href="https://dagfs.github.io/sprig/workshop)">Workshop</a>
-<a  href="https://dagfs.github.io/sprig/activities)">Activities</a>
-<a  href="https://dagfs.github.io/sprig/extra_material)">Extra material</a>
-</nav>
-
-<img src="https://github.com/dagfs/sprig/raw/master/img/logo/sprig_logo_500x307.png" >
-
 # Let's Grow "Privacy Aware Together!
 
 Serious Privacy Game Workshop (SPRIG) is a workshop that takes the participant trough developing a serious game focusing on privacy. The development of the game let the participants discuss privacy in groups in an fun and interesting way.
