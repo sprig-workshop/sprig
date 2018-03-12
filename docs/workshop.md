@@ -17,7 +17,7 @@ The workshop is designed to be run with groups of 3-4 students.
 
 The workshop has a set of artifacts, the first is the presentation with a introduction to privacy, a warm-up activity and run plan of the workshop with some extra information to give to the participants for each part. The workshop also has a *board*, a set of *cards*, and a set of *question cards*. All the parts can easily be printed and assembled. See the [print instruction]() for further details. The board is split into the workshops four parts. At the start of the workshop all parts are covered. During the workshop each part is uncovered one at a time revealing *instructions*, *question cards*, and *cards* for each part. the *instructions* simply tells the groups what to do and are the same as the instructions in the presentation. The *question cards* are cards that contains a set of question meant to help the group formulate their ideas in a way that makes it easy to present it to the other groups. The *cards* are sets of cards related to the different parts. They give extra information about the different privacy problems and about raising awareness.
 
-Filling out the question cards help the groups present their ideas more easily to the other groups and makes sure they have tought about the most important part. Making sure the groups fills out the **question cards** during the workshop is therefore important.
+Filling out the question cards help the groups present their ideas more easily to the other groups and makes sure they have tough about the most important part. Making sure the groups fills out the **question cards** during the workshop is therefore important.
 
 Below is detailed instruction of how to run the workshop.
 
@@ -72,8 +72,19 @@ Finally the groups shall explain their modified game to the other groups. This s
 
 **Time 15+5 min**
 
+In this part the participants will create a game in the same genre as the game they modified in the meaning part, using the ideas they had for raising awareness for their privacy problem.
 
+The participants simply get ***15 minutes*** to answer the play question card. Before explaining their game idea for the other groups. This should take about ***5 minutes***
+
+#### further modification
+doing a crazy 4. drawing up 4 images from within the game with a couple of minutes for each sketch.
 
 ### Part 4 - Technology
 
 **Time 10+5 min**
+
+The groups have now a privacy problem in mind, some methods of raising awareness, and a game concept ready. What remains is to design it for a technology. The groups first gets ***2 minutes*** to decide on a technology before spending ***8 minutes*** answering the technology question card.
+
+When they are done answering the technology question card, it is time for the final explanation. The groups start by shortly repeating their privacy problem, how to raise awareness for it in a game, their game concept, and how it will be played. This should take about ***5-10 minutes***
+
+This concludes the workshop.
