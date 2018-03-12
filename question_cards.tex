@@ -1,4 +1,5 @@
 \include{config}
+
 \begin{document}
 
 
@@ -7,7 +8,7 @@
 \begin{center}
  \fcolorbox{#1}{white}{
  \begin{minipage}[l][12.6cm][c]{
- \dimexpr18cm-4
+ \dimexpr18.7cm-4
  \fboxsep-2
  \fboxrule}
 
@@ -23,7 +24,7 @@
    #5
    Description:\\
    \fcolorbox{black}{white}{\begin{minipage}[l][5.5cm][c]{
-   \dimexpr17.3cm-4
+   \dimexpr18cm-4
    \fboxsep-2
    \fboxrule}
    \hspace{\fill}
@@ -34,6 +35,23 @@
    \end{minipage}
   }
   \\[2pc]
+\end{center}
+}
+
+\newcommand{\questionBackground}[2]{
+\noindent
+\begin{center}
+ \fcolorbox{#2}{white}{
+ \begin{minipage}[l][12.6cm][c]{
+ \dimexpr18.7cm-4
+ \fboxsep-2
+ \fboxrule}
+
+ \centering
+ #1
+   \end{minipage}
+  }
+  \\[2.84pc]
 \end{center}
 }
 
@@ -70,6 +88,17 @@
 }
 %
 %
+\questionBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Question Card}
+}{RealityBlue}
+%
+\questionBackground{%
+\includegraphics[width=4cm]{img/logo/meaning}%
+\section*{Reality Question Card}
+}{MeaningYellow}
+%
+%
 \questionBox{PlayGreen}{PlayGreen}{\includegraphics[height=8mm]{img/logo/play} Play}{Genre  \fcolorbox{black}{white}{\begin{minipage}[l][.6cm][c]{
 \dimexpr14cm-4
 \fboxsep-2
@@ -97,6 +126,19 @@
   \item What are the limitations of creating your game for this technology?
 \end{itemize}
 }
+%
+%
+\questionBackground{%
+\includegraphics[width=4cm]{img/logo/play}%
+\section*{Play Question Card}
+}{PlayGreen}
+%
+\questionBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Question Card}
+}{TechnologyRed}
+%
+%
 
 
 \end{document}
