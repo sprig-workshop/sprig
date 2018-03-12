@@ -3,9 +3,10 @@
 
 \newcommand{\card}[6]{
 \noindent
+\begin{center}
  \fcolorbox{#5}{white}{
-   \begin{minipage}[l][12cm][c]{
-   \dimexpr15cm-4
+   \begin{minipage}[l][12.6cm][c]{
+   \dimexpr18.7cm-4
    \fboxsep-2
    \fboxrule}
    \centering
@@ -18,7 +19,27 @@
    \end{minipage}
    \end{minipage}
    }
-\\[4pc]
+\\[2pc]
+
+\end{center}
+}
+
+
+\newcommand{\cardBackground}[2]{
+\noindent
+\begin{center}
+ \fcolorbox{#2}{white}{
+ \begin{minipage}[l][12.6cm][c]{
+ \dimexpr18.7cm-4
+ \fboxsep-2
+ \fboxrule}
+
+ \centering
+ #1
+   \end{minipage}
+  }
+  \\[2.84pc]
+\end{center}
 }
 
 \newcommand{\RealityCard}[4]{
@@ -34,23 +55,6 @@
 }
 
 
-\todo[inline]{import play cards}
-\todo[inline]{add copyright to cards from triadic workshop saying they are from the triadic workshop}
-\todo[inline]{figure out what license to put this under}
-
-
-\newpage
-
-\RealityCard{
-Location Sharing%
-}{%
-cards/reality/location_sharing%
-}{%
-Location sharing @2017 Cyber Pshyche%
-}{%
-More and more applications and devices are embedding location into their services. This information can be used to give improved service to the user, such as automatically filling in the closest bus-stop, but also be exploited, abused and sold to e.g. give targeted ads. Sharing your location with “friends” can be valuable at times, but can also be misused by thieves.%
-}
-%
 \RealityCard{
 Smart cities%
 }{%
@@ -60,6 +64,28 @@ Smart cities @ 2015 GCN%
 }{%
 A smart city is a collection of homes, buildings and devices that are all sharing or using data from same information grid. The city uses all the information gathered to improve quality and performance of urban services. For instance: a traffic camera noticing heavy traffic can tell the buses to take another route. In a smart city there are enormous amounts of data flowing over networks and being stored, which can bring potential privacy issues.%
 }
+%
+\RealityCard{
+Location Sharing%
+}{%
+cards/reality/location_sharing%
+}{%
+Location sharing @2017 Cyber Pshyche%
+}{%
+More and more applications and devices are embedding location into their services. This information can be used to give improved service to the user, such as automatically filling in the closest bus-stop, but also be exploited, abused and sold to e.g. give targeted ads. Sharing your location with “friends” can be valuable at times, but can also be misused by thieves.%
+}
+\newpage
+%
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
 %
 %
 \RealityCard{
@@ -85,6 +111,17 @@ Tracking activity to improve health has become increasingly popular. Activity tr
 }
 %
 %
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
+%
+%
 \RealityCard{
 Social media%
 }{%
@@ -107,6 +144,17 @@ Many mobile applications are “overprivileged”. Meaning that they have access
 }
 %
 %
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
+%
+%
 \RealityCard{
 Loyalty programs%
 }{%
@@ -127,6 +175,17 @@ The McDonald’s Game © 2006 Molleindustria%
 Awareness is about making informed and thoughtful decisions. A game that aims to raise awareness or change the attitude attempts to make the player more aware about the decisions they make related to a certain topic. That topic may be a major world problem or an everyday issue.
 An example is The McDonald’s Game which raises awareness about the flaws of the fast-food industry. %
 }
+%
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/reality}%
+\section*{Reality Card}
+}{RealityBlue}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/meaning}%
+\section*{Meaning Card}
+}{MeaningYellow}
 %
 %
 \TechnologyCard{
@@ -152,6 +211,17 @@ They can be complex or simple, and available in the web-browser or directly on t
 }
 %
 %
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
+%
+%
 \TechnologyCard{
 Console%
 }{%
@@ -173,6 +243,17 @@ Interactive Devices ©2017 codebender's blog%
 By using sensors, actuators (a device that converts energy into motion), and the Internet anything can become a video-game!\\
 An Arduino connected to a moisture sensor can make watering the plants a game. The opportunities are endless. %
 }
+%
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
 %
 %
 \TechnologyCard{
@@ -198,6 +279,17 @@ Mobile games are typically simple but addicting games with the possibility to pl
 }
 %
 %
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
+%
+%
 \TechnologyCard{
 Virtual Reality%
 }{%
@@ -217,6 +309,17 @@ Tamagotchi © 2005 Tomasz Sienicki%
 }{%
 A device that can use buttons, sensors or other forms of input. The device is not connected to anything. %
 }
+%
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
+%
+\cardBackground{%
+\includegraphics[width=4cm]{img/logo/technology}%
+\section*{Technology Card}
+}{TechnologyRed}
 
 \todo[inline]{change to a combination of tamagotci, guitar hero, nintendo labo, and joystic}
 
