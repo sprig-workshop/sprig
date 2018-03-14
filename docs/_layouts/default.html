@@ -9,12 +9,16 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-      #header-image{
-        max-height:200px;
-      }
-      a[href]:empty {
-        text-decoration: line-through;
-    }
+        #header-image{
+          max-height:200px;
+        }
+        a[href=''] {
+           color:grey;
+           cursor:not-allowed;
+       }
+         a[href='']:after {
+           content: "(Link broken)";
+       }
     </style>
   </head>
   <body>
