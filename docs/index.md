@@ -7,14 +7,14 @@ Serious Privacy Game Workshop (SPRIG) is a workshop that takes the participant t
 The workshop has 3 artifacts as well as a presentation and a guide for running the workshop.
 
 The first is the board
-![](https://github.com/dagfs/sprig/raw/master/img/workshop/board_2)
+![](https://github.com/dagfs/sprig/raw/master/img/workshop/board_2.png)
 [Download bord](https://github.com/dagfs/sprig/raw/master/board.pdf).
 
 The second is the workshop cards
-![](https://github.com/dagfs/sprig/raw/master/img/workshop/cards) [Download cards](https://github.com/dagfs/sprig/raw/master/cards.pdf).
+![](https://github.com/dagfs/sprig/raw/master/img/workshop/cards.png) [Download cards](https://github.com/dagfs/sprig/raw/master/cards.pdf).
 
 The last part are the question cards
-![](https://github.com/dagfs/sprig/raw/master/img/workshop/question_cards)
+![](https://github.com/dagfs/sprig/raw/master/img/workshop/question_cards.png)
 [Download question cards.pdf](https://github.com/dagfs/sprig/raw/master/question_cards.pdf)
 
 
